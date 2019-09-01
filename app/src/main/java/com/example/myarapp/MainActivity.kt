@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-œœœ
+
     private fun placeObject(arFragment: ArFragment, anchor: Anchor, uri: Uri?) {
         ModelRenderable.builder()
             .setSource(arFragment.context, uri)
